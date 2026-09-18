@@ -8,7 +8,7 @@ import {
 } from './artist.model.js';
 import { artistDto } from './artist.dto.js';
 import type { CreateArtistRequestDto, UpdateArtistRequestDto, ArtistRow } from './artist.dto.js';
-import { AppError } from '../middleware/app-error.js';
+import { AppError } from '../../middleware/app-error.js';
 
 export const getAllArtists: RequestHandler = async (req, res) => {
   const artists = await findAllArtists();

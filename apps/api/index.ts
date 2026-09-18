@@ -1,6 +1,6 @@
 import express from 'express';
-import userRoutes from './users/user.route.js';
-import artistRoutes from './artists/artist.route.js';
+import userRoutes from './modules/users/user.route.js';
+import artistRoutes from './modules/artists/artist.route.js';
 import { requestLogger } from './middleware/request-logger.js';
 import { notFoundHandler, errorHandler } from './middleware/error-handler.js';
 

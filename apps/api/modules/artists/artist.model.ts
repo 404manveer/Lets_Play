@@ -1,4 +1,4 @@
-import pool from '../db/pool.js';
+import pool from '../../db/pool.js';
 import type { ArtistRow } from './artist.dto.js';
 
 export const createArtist = async (

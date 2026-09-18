@@ -10,7 +10,7 @@ import {
 } from './user.model.js';
 import { userDto } from './user.dto.js';
 import type { CreateUserRequestDto, UpdateUserRequestDto, UserRow } from './user.dto.js';
-import { AppError } from '../middleware/app-error.js';
+import { AppError } from '../../middleware/app-error.js';
 
 const SALT_ROUNDS = 10;
 const UNIQUE_VIOLATION = '23505';
